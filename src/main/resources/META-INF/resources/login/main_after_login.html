@@ -11,6 +11,7 @@
     <script src="../js/test.js"></script>
     <script src="../js/test2.js"></script>
     <script src="../js/toggle.js"></script>
+
     <link rel="stylesheet" href="../css/main.css">
     <script>
        window.onload = function() {
@@ -61,8 +62,11 @@
                 <li class="nav-item"><a class="nav-link" href="#">뉴스</a></li>
                 <li class="nav-item"><a class="nav-link" href="#">챔피언</a></li>
                 <li class="nav-item"><a class="nav-link" href="main_page_sub/download.html">다운로드</a></li>
-                <li class="nav-item"><a class="nav-link" href="/login">로그인</a></li>
-
+                <!-- 기존 로그인 버튼제거, 로그아웃버튼추가-->
+                <li class="nav-item">
+                    <a class="nav-link btn btn-outline-danger btn-sm px-3" 
+                        href="/logout">로그아웃</a>
+                </li>
             <li class="nav-item dropdown">
             <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
                 외부사이트
